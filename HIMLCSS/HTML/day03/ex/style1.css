@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    /* 주축정렬 */
+    /* justify-content: space-between; */
+    /* 세로측정렬 100%적용해야한다.*/
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+div{
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    
+}
+
+#second{
+    background-color: bisque;
+}

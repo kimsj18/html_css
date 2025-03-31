@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* h1+h2 {color : red;}
+        h1~h2 {color: blue;} */
+
+        /* h1:hover {color: red;}
+        h1:active{color: blue;} */
+        input[type=checkbox]:checked + div {
+            height: 0px;
+        }
+            div {
+                overflow: hidden;
+                width: 650px;
+                height: 300px;
+                -ms-transition-duration: 1s;
+                -webkit-transition-duration: 1s;
+                -moz-transition-duration: 1s;
+
+                transition-duration: 1s;
+            }
+        
+    </style>
+</head>
+<body>
+    <!-- <h1>h1</h1>
+    <h2>h2</h2>
+    <h2>h2</h2>
+    <h2>h2</h2>
+    <h2>h2</h2> -->
+
+    <!-- <h1>User Action Selector</h1> -->
+
+     <!-- <input type="text">
+     <input type="text" disabled = "disabled"> -->
+
+     <h1>상태 선택자 테스트</h1>
+     <input type="checkbox" name="check" id="">
+     <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta omnis ducimus eaque officiis mollitia placeat at consequatur nihil nam vel inventore dolor harum tempora doloremque corrupti possimus ratione, repudiandae ipsum.
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam earum explicabo numquam atque hic sunt. Quidem magnam a, quisquam voluptates beatae deleniti pariatur aut obcaecati doloribus id earum dolorum sit. 
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat recusandae dignissimos magni quos eaque nesciunt facere perspiciatis porro mollitia deserunt aut, soluta esse? Explicabo, molestiae dolorum. Quod non nostrum laboriosam! 
+        </p>
+
+     </div>
+
+    
+</body>
+</html>

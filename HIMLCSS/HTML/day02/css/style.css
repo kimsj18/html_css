@@ -1,0 +1,75 @@
+/* p {
+    color: red; 
+ }
+
+ h1 {
+    font-size: 100px;
+    text-align: center;
+ } */
+
+ /* p, h1 선택자 {선언블록} */
+ 
+ /* * {
+    color: red;
+ } */
+
+ /* 아이디는 #으로 시작 */
+ /* #test1 {
+    color : green;
+ }
+
+ #test2 {
+    color : rgb(156, 31, 123);
+ }
+
+
+ #test3 {
+    color : rgb(40, 36, 163);
+ } */
+
+ /* 클래스는 . 으로 시작 */
+ /* .container {
+    color: bisque;
+ } */
+
+ /* .my-class1{
+    color : aqua;
+ }
+ .my-class2{
+    background-color: blue;
+    text-align: center;
+ } */
+
+div p {
+    color: blue;
+}
+
+table{
+   border: 1px solid black;
+   border-collapse: collapse;
+   
+   
+}
+caption {
+   caption-side: bottom;
+   text-align: right;
+}
+
+td, th{
+   border: 1px solid black;
+   padding: 10px;
+}
+
+td{
+   text-align: center;
+}
+
+.coloring{
+   background-color: aquamarine;
+}
+
+
+
+
+
+
