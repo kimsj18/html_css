@@ -1,0 +1,74 @@
+@import "./global.css";
+
+/* 1. 프로필 영역을 조정 */
+.user-componet{
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* 2. 프로필 이미지 크기와 위치 조정 
+   3. 프로필 이미지와 텍스트를 스타일링
+   4. 새 프로필의 추가 버튼의 위치와 스타일링
+   5. 전체를 감싸는 태그의 위치를 가운데 조정
+*/
+.user-componet__profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-componet__id {
+    padding-top: 10px;
+    font-size: 1rem;
+}
+
+.add-profile-btn {
+    background-color: grey;
+    width: 80px;
+    height: 80px;
+    font-size: 4rem;
+    font-weight: 150;
+    color: white;
+}
+
+.continue-watching__images img {
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
+    /* 가로세로 비율을 유지하면서 지정한 크기에 맞추어 작업해라 */
+    object-fit: cover;
+}
+
+/* 사진 여백을 조정 */
+.continue-watching {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+/*  */
+.continue-watching__images {
+    list-style: none;
+    display: flex;
+    overflow: auto;
+}
+
+.continue-watching__card {
+    background-color: var(--darkpurple);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.continue-watching__header {
+    margin-bottom: 15px;
+}
+
+.continue-watching__images li {
+    margin-left: 5px;
+}
+
+.continue-watching__title {
+    display: block;
+    margin: 2px 0;
+}
+

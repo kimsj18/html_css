@@ -1,0 +1,53 @@
+@import "global.css";
+
+.profile {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile__img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.profile__img-add {
+    border-radius: 50%;
+    width: 5rem;
+    color: white;
+    background-color: grey;
+}
+
+.profile__text{
+
+}
+
+.wishlist__ok{
+    padding: 0 10px;
+}
+
+
+.wishlist__img-text {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: var(--purple);
+    border-radius: 30px;
+    width: 22rem;
+}
+
+.wishlist__img {
+    width: 20rem;
+}
+
+.wishlist__text{
+    
+}
+
+.mypage-zzim{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--purple);
+
+}

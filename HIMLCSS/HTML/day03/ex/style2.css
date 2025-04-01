@@ -4,7 +4,7 @@
 
 body{
     display: flex;
-
+    /* flex-direction: column; */
 }
 
 div{
@@ -14,8 +14,10 @@ div{
     background-color: blueviolet;
 
     display: flex;
+
     justify-content: center;
     align-items: center;
+    
     
 }
 
